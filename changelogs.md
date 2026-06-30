@@ -3,6 +3,10 @@ Kraken Kernel v3 — Redwood Update
 Device: POCO X5 Pro 5G / Redmi Note 12 Pro Speed — "redwood"
 
 Changelogs:
+- set 560 MHz máx frequency for games 
+- set 180 MHz minimum frequency for idle
+- Updated Awinic AW882xx v2.0.0 driver
+- Updated Vibration properties from CAF
 - Merge CLO tag LA.UM.9.14.6.r1-02800-QCM6490.QISI14.0
 - Fixed The cell phone wouldn't "turn off". (There was a bug when "turning off" the cell phone; it would restart the device.
 - Improved Memory leaks 
