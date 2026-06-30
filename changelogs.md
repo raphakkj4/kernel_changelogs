@@ -1,3 +1,27 @@
+Kraken Kernel v3 — Redwood Update
+
+Device: POCO X5 Pro 5G / Redmi Note 12 Pro Speed — "redwood"
+
+Changelogs:
+- Merge CLO tag LA.UM.9.14.6.r1-02800-QCM6490.QISI14.0
+- Fixed The cell phone wouldn't "turn off". (There was a bug when "turning off" the cell phone; it would restart the device.
+- Improved Memory leaks 
+- Add OverlayFS
+- Idle drain improved 
+- improvements in temperature (The cell phone was overheating.)
+- Added F2FS optimizations
+- Undervolt GPU
+- Optimized CPU boost for LITTLE cores
+• Fixed Cpufreq memory leaks
+• Global wakelock timeout added
+• Power-efficient workqueues enabled system-wide
+
+
+any bugs, tag me in my group in telegram.
+
+
+-----------------------------------------------
+
 Kraken Kernel v2 — Redwood Update
 
 Device: POCO X5 Pro 5G / Redmi Note 12 Pro Speed — "redwood"
