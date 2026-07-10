@@ -1,3 +1,28 @@
+Kraken Kernel v4 — Redwood Update
+
+Device: POCO X5 Pro 5G / Redmi Note 12 Pro Speed — "redwood"
+
+Changelogs:
+- Rework GPU target frequency calculation for high refresh rates to reduce overly aggresive frequency requests in some games.
+- Added support for SusFS 2.2
+- Upstream KernelSU-NEXT to v3.3.0.
+- Optimize LZ4 dictionary compression performance for zram.
+- Remove all traces for defconfig
+- fix the temperature when charging your cell phone
+- Fix memory leaks
+- UI improvements
+- Add 150Mhz for battery saver
+- Merge tag 'LA.UM.9.14.r1-25800-LAHAINA.QSSI15.0'
+"LA.UM.9.14.r1-25800-LAHAINA.QSSI15.0"
+- Merge tag 'LA.UM.9.14.r1-25800-LAHAINA.QSSI15.0'
+- Merge CLO tag LA.UM.9.14.6.r1-02800-QCM6490.QISI14.0 into redwood
+- techpack: audio-kernel: Update to CLO tag LA.UM.9.14.6.r1-02800-QCM6490.QISI14.0
+- Enable SKhynix UFS HPB driver
+- Merge tag 'LA.UM.9.14.1.r1-21100-QCM6490.QISI15.0' of redwood
+- switch s2idle to deep for better idle drain
+- recalculating the energy power for redwood
+-----------------------------------------------
+
 Kraken Kernel v3 — Redwood Update
 
 Device: POCO X5 Pro 5G / Redmi Note 12 Pro Speed — "redwood"
