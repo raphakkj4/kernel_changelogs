@@ -1,3 +1,33 @@
+Kraken Kernel v5 — Redwood Update
+
+Device: POCO X5 Pro 5G / Redmi Note 12 Pro Speed — "redwood"
+
+Changelogs:
+- UPSTREAMED to 5.4.303
+- Code cleanup and dead-code removal
+- Drop 90hz 
+- Fixed Hotpost (when you connected the hotspot to another user, and if you turned off the screen the Wi-Fi would disconnect)
+- General CPU scheduling and memory optimizations aimed at lowering power consumption
+- Better balance between performance, temperature and battery life
+- Reduced unnecessary CPU activity and background overhead
+- UPSTREAMED EROFS
+- Improved memory management and reclaim behavior
+- Updated memory-pressure handling
+- Improved LMK behavior and background app management
+- Reduced unnecessary memory overhead
+- Better balance between available RAM, multitasking and performance
+- Improved responsiveness while keeping power consumption under control
+- Reduced unnecessary scheduler overhead
+- Better handling of interactive and background workloads
+- Improved task placement, wakeups and CPU scheduling behavior
+- Major scheduler rework with EEVDF improvements backported from newer kernel 5.15
+- Update Ksu next to 3.4
+- Upstreamed and backported several core kernel improvements
+- Updated RCU ported from 6.6
+General locking, synchronization and latency improvements
+
+-----------------------------------------------
+
 Kraken Kernel v4 — Redwood Update
 
 Device: POCO X5 Pro 5G / Redmi Note 12 Pro Speed — "redwood"
