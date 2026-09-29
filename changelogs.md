@@ -1,3 +1,37 @@
+Kraken Kernel v6.0 — Redwood Update
+-----------------------------------------------
+Device: POCO X5 Pro 5G / Redmi Note 12 Pro Speed — "redwood" and "redwoodin"
+
+Changelogs:
+- Kcompressed imported And adapted for redwood
+- Fixed Hotpost broken in Android 16 qpr2+
+- Improvements for memory and ram
+- Fixes susFS hiding the "su" from apps that require root.
+- Disabled console-ramoops and dmesg
+- Fixed Google apps broken (webview
+- Fixed Low brightness in stock
+- Added support for Android 17 and earlier. 
+- Merged branch `Kraken-bpf` to `Kraken-aosp`
+- Kernel UPSTREAMED to 5.4.304
+- UPSTREAM zstd to 1.5.7-kernel
+- Imported MGLRU
+- UPSTREAMED Ksu-Next 3.4
+- UPDATED SusFS to 2.3
+- mm: reduce zram and filesystem allocation overhead
+- drm/msm/sde: fix idle power collapse timing
+- Update DTC to upstream version v1.8.1-15-g66e1201
+- Set max available ratio of SSG to 25 again since capping queue depth saves power.
+- Recalculate the energy model
+- Enforce WFI idle state when the screen is on.
+- Enable threaded NAPI for IPA.
+- Enable scheduler and SLUB optimizations
+- techpack: ASoC: Use power efficient workqueues
+  
+-----------------------------------------------
+Device: POCO X5 Pro 5G / Redmi Note 12 Pro Speed — "redwood"
+
+Changelogs:
+
 Kraken Kernel v5 — Redwood Update
 
 Device: POCO X5 Pro 5G / Redmi Note 12 Pro Speed — "redwood"
