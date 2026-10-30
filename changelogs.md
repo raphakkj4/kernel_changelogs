@@ -1,3 +1,41 @@
+KRAKEN KERNEL v7.0
+---
+
+Changelog:
+- Kernel upstreamed to 5.10.273
+- TECHPACK merge CLO LA.UM.9.14.1.r1-21700-QCM6490.QISI15.0`.
+- CAMERA merge CLO LA.UM.9.14.1.r1-21700-QCM6490.QISI15.0`.
+`fw-api` merge CLO LA.UM.9.14.1.r1-21700-QCM6490.QISI15.0`.
+qcacld-3.0` merge CLO LA.UM.9.14.1.r1-21700-QCM6490.QISI15.0`.
+- Updated KernelSU-NEXT to v3.4.2.
+- SusFS 2.3.0.
+- Enhanced root hiding.
+- Improved security and reliability across root-related components.
+- Updated ZRAM with LZ4 and ZSTD compression support.
+- Optimized MGLRU, PSI, zsmalloc, and memory reclaim mechanisms.
+- Improved memory allocation, reclaim efficiency, and multitasking behavior.
+- Reduced unnecessary memory and devfreq sampling while CPU clusters are idle.
+- Fine-tuned task scheduling for smoother performance and improved responsiveness.
+- Optimized workload distribution across CPU clusters.
+- Improved CPU idle behavior, frequency scaling, and latency management.
+- Removed an incompatible scheduler optimization discovered during real-world boot testing.
+- Reduced unnecessary background activity, heat generation, and power consumption.
+- UPSTREAMED F2FS and EROFS performance.
+- Improved filesystem mounting, compression, and file management.
+- Enabled per-CPU EROFS decompression workers with elevated scheduling priority.
+- Optimized storage operations for better efficiency and responsiveness.
+- Improved GPU, display, and rotator handling.
+- Optimized display transitions and overall UI fluidity.
+- Applied stability improvements across camera, audio, and input subsystems.
+- Applied fixes across Wi-Fi, Binder, USB, networking, and filesystem components.
+- Addressed memory leaks, race conditions, out-of-bounds accesses, and use-after-free issues.
+- Reduced excessive logging in audio, haptics, and internal drivers.
+- Updated code compatibility for modern Clang toolchains with LTO support.
+- Smoother system responsiveness and UI transitions.
+- Improved memory efficiency and background power management.
+- Reduced unnecessary system overhead.
+---
+
 Kraken Kernel v6.0 — Redwood Update
 -----------------------------------------------
 Device: POCO X5 Pro 5G / Redmi Note 12 Pro Speed — "redwood" and "redwoodin"
